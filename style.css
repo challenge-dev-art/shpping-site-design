@@ -858,26 +858,43 @@ div.desc button {
   .single-welcome-slide-home {
     height: 300px; } }
 .single-welcome-slide-home .welcome-text {
+  background: rgba(199, 197, 199, 0.71);
+  height: 432px;
   position: relative;
   z-index: 1; }
 .single-welcome-slide-home .welcome-text h2 {
-  font-size: 72px;
+  font-size: 46px;
   display: block;
-  margin-bottom: 30px;
-  color: #252525; }
+  color: green;
+  margin-bottom: 10px;
+  padding-top: 65px;}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .single-welcome-slide-home .welcome-text {
+    font-size: 36px;
+    height: 360px;} }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .single-welcome-slide-home .welcome-text h2 {
-    font-size: 60px; } }
+    font-size: 36px;
+    padding-top: 55px;} }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-welcome-slide-home .welcome-text {
+    height: 360px;} }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .single-welcome-slide-home .welcome-text h2 {
-    font-size: 60px; } }
+    font-size: 36px;
+    padding-top: 55px;} }
+@media only screen and (max-width: 767px) {
+  .single-welcome-slide-home .welcome-text {
+    height: 300px;
+    padding-top: 40px;} }
 @media only screen and (max-width: 767px) {
   .single-welcome-slide-home .welcome-text h2 {
-    font-size: 36px; } }
+    font-size: 26px;
+    padding-top: 30px;} }
 .single-welcome-slide-home .welcome-text p {
-  font-size: 18px;
-  color: #252525;
-  margin-bottom: 50px;
+  font-size: 20px;
+  color: #a88300;
+  margin-bottom: 30px;
   display: block; }
 
 .welcome-slides {
